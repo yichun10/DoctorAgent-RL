@@ -1,7 +1,6 @@
 # DoctorAgent-RL 🚀: Multi-Agent Collaborative Reinforcement Learning for Clinical Dialogue
 
-[![Dataset](https://img.shields.io/badge/Dataset-MTMedDialog-orange)](DATASET.md) [![arXiv](https://img.shields.io/badge/arXiv-2505.19630-b31b1b.svg)](https://arxiv.org/pdf/2505.19630) [![Hugging Face Collection](https://img.shields.io/badge/Hugging%20Face%20Collection-doctoragent--rl-blue)](https://huggingface.co/collections/Jarvis1111/doctoragent-rl-684ffbcade52305ba0e3e97f)
-
+[![Dataset](https://img.shields.io/badge/Dataset-MTMedDialog-orange)](DATASET.md) 
 <div align="center">
 
   <img width="1231" alt="image" src="https://github.com/user-attachments/assets/bd9f676e-01f9-406c-881d-c2b9f45e62f3" />
@@ -113,12 +112,6 @@ Follow RAGEN's setup script:
 ```bash
 bash scripts/setup_ragen.sh
 ```
-
-### 3. Download the neccessary models
-
-- [Qwen2.5-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct/tree/main)
-- [DoctorAgent-RL-SFT-1k-Thinking](https://huggingface.co/Jarvis1111/DoctorAgent-RL-SFT-1k-Thinking) (Our SFT Model)
-- [DoctorAgent-RL](https://huggingface.co/Jarvis1111/DoctorAgent-RL) (Our RL Model)
 
 ## Experiment Scripts
 
