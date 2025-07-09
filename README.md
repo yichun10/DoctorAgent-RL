@@ -18,10 +18,6 @@
 - [Experiment Scripts](#experiment-scripts)
 - [Citation](#citation)
 
-## News
-
-* **[2025.6.16]** We released the source code in [GitHub](https://github.com/JarvisUSTC/DoctorAgent-RL) and Models in [Huggingface](https://huggingface.co/collections/Jarvis1111/doctoragent-rl-684ffbcade52305ba0e3e97f)!
-* **[2025.5.26]** We released our [paper](https://arxiv.org/pdf/2505.19630) in Arxiv!
 
 ## Introduction
 
@@ -150,6 +146,6 @@ bash ragen/env/medical_consultation/evaluation/run_eval_patientllm_category.sh $
 bash ragen/env/medical_consultation/evaluation/run_eval_patientllm_category_api.sh ${MODEL_NAME}
 ```
 
-For more detailed command-line arguments and configuration options, please refer to the individual script files that will be released with the code.
+
 
 
