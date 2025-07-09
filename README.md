@@ -9,14 +9,13 @@
 
 
 ## Table of Contents
-- [News](#news)
 - [Introduction](#introduction)
 - [Key Features](#key-features)
 - [Methodology](#methodology)
 - [Experiments](#experiments)
 - [Setup](#setup)
 - [Experiment Scripts](#experiment-scripts)
-- [Citation](#citation)
+
 
 
 ## Introduction
