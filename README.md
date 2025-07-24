@@ -1,6 +1,7 @@
 # DoctorAgent-RL 🚀: Multi-Agent Collaborative Reinforcement Learning for Clinical Dialogue
 
-[![Dataset](https://img.shields.io/badge/Dataset-MTMedDialog-orange)](DATASET.md) [![arXiv](https://img.shields.io/badge/arXiv-2505.19630-b31b1b.svg)](https://arxiv.org/pdf/2505.19630) [![Hugging Face Collection](https://img.shields.io/badge/Hugging%20Face%20Collection-doctoragent--rl-blue)](https://huggingface.co/collections/Jarvis1111/doctoragent-rl-684ffbcade52305ba0e3e97f)
+[![Dataset](https://img.shields.io/badge/Dataset-MTMedDialog-orange)](DATASET.md) 
+
 
 <div align="center">
 
@@ -10,19 +11,13 @@
 
 
 ## Table of Contents
-- [News](#news)
 - [Introduction](#introduction)
 - [Key Features](#key-features)
 - [Methodology](#methodology)
 - [Experiments](#experiments)
 - [Setup](#setup)
 - [Experiment Scripts](#experiment-scripts)
-- [Citation](#citation)
 
-## News
-
-* **[2025.6.16]** We released the source code in [GitHub](https://github.com/JarvisUSTC/DoctorAgent-RL) and Models in [Huggingface](https://huggingface.co/collections/Jarvis1111/doctoragent-rl-684ffbcade52305ba0e3e97f)!
-* **[2025.5.26]** We released our [paper](https://arxiv.org/pdf/2505.19630) in Arxiv!
 
 ## Introduction
 
@@ -103,7 +98,7 @@ To set up your environment and run DoctorAgent-RL, follow these steps:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/JarvisUSTC/DoctorAgent-RL.git
+git clone the repository
 cd DoctorAgent-RL
 ```
 
@@ -117,8 +112,6 @@ bash scripts/setup_ragen.sh
 ### 3. Download the neccessary models
 
 - [Qwen2.5-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct/tree/main)
-- [DoctorAgent-RL-SFT-1k-Thinking](https://huggingface.co/Jarvis1111/DoctorAgent-RL-SFT-1k-Thinking) (Our SFT Model)
-- [DoctorAgent-RL](https://huggingface.co/Jarvis1111/DoctorAgent-RL) (Our RL Model)
 
 ## Experiment Scripts
 
@@ -159,15 +152,4 @@ bash ragen/env/medical_consultation/evaluation/run_eval_patientllm_category_api.
 
 For more detailed command-line arguments and configuration options, please refer to the individual script files that will be released with the code.
 
-## Citation
 
-If DoctorAgent-RL contributes to your research, please consider citing our work:
-
-```latex
-@article{feng2025doctoragent,
-  title={DoctorAgent-RL: A Multi-Agent Collaborative Reinforcement Learning System for Multi-Turn Clinical Dialogue},
-  author={Feng, Yichun and Wang, Jiawei and Zhou, Lu and Li, Yixue},
-  journal={arXiv preprint arXiv:2505.19630},
-  year={2025}
-}
-```
